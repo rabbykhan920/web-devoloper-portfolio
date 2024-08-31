@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* header and banner start */
+header{
+    background-image: url(img/Developer.png) , url(img/Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* logo start */
+.logo-menu-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.logo{
+    margin-top: 60px;
+    
+}
+.logo span{
+    color:#FD6E0A;
+}
+.logo h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+/* logo end  */
+/* menu start */
+.menu{
+    margin-top: 60px;
+}
+.menu-item{
+    display: flex;
+}
+.menu-item li{
+    list-style: none;
+}
+.menu-item li a{
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 20px;
+    color: #474747;
+
+}
+
+/* menu end  */
+/* common btn start */
+.common-btn{
+    border: none;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    padding: 18px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: -7;
+    cursor: pointer;
+
+}
+/* common btn end */
+/* banner start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 200px;
+    margin-bottom: 160px;
+}
+.b-content{
+
+    width: 50%;
+    margin-left: 164px;
+
+}
+.b-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.b-content h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+.b-content p{
+    margin-bottom: 30px;
+    color: #757575;
+}
+.banner-img{
+    margin-bottom: -4px;
+}
+.banner-img img{
+    width: 100%;
+    margin-top: 40px;
+}
+.b-content button{
+    margin-right: 20px;
+}
+/* header and banner end */
+
+/* main start */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about me start */
+
+.about-me{
+    margin-bottom: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+.wrapper{
+    background-color: white;
+    padding: 40px;
+}
+.about-me-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-me-content p{
+margin-top: 30px;
+margin-bottom: 30px; 
+color: #757575;   
+}
+.common-heading,
+ .common-paragaraph{
+    text-align: center;
+}
+.about-me-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-me-info h4{
+    color: #757575;
+}
+/* about me end */
+/* what i do start */
+
+.what-i-do{
+    margin-bottom: 50px;
+}
+.what-i-do h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.what-i-do p{
+     margin-bottom: 50px;
+     color: #757575;
+     
+}
+.services{
+    margin-bottom: 150px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.single-item{
+    width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.single-item img{
+    margin-bottom: 30px;
+}
+.single-item p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #757575;
+}
+
+/* what i do end */
+ /* resume start */
+ 
+.resume{
+    margin-bottom: 100px;
+}
+.resume h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.resume-container{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 30px;
+}
+.resume-btn{
+    text-align: center;
+}
+.resume-column h2{
+font-size: 25px;
+font-weight: 600;
+color: #474747;
+}
+.resume-column h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-top: 30px;
+}
+.resume-column h4{
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-column p{
+    color: #757575;
+    margin-bottom: 50px;
+    
+}
+/* resume end */
+/* footer start */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    column-gap: 110px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column h2{
+    margin-bottom: 25px;
+}
+.footer-column p{
+    margin-bottom: 30px;
+}
+.social a{
+    margin-right: 25px;
+}
+.footer-column input[type='text'],
+.footer-column input[type='email'],      
+.footer-column textarea{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 20px 20px;
+}
+/* footer end */
